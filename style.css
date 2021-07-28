@@ -1,0 +1,44 @@
+/*style.css*/
+/* m2 project 2 */
+
+* {margin: 0; padding: 0}
+
+.de-ct {
+	background-image:  url("./images/dramatically-engage1.jpg");
+	height: 750px;
+	width:  1500px;
+/*	height: 100%;
+	width:  100%;*/
+
+	color:  white;
+	text-align: center;
+	
+}
+
+.comp-ct {
+	background-color:  yellowgreen;
+	color:  white;
+	text-align: center;
+}
+
+.sq-ph-ct {
+	color:  white;
+}
+
+#bar4 {
+	background-color:  black;
+}
+
+.b6-sanity-ct {
+	text-align:  center;
+}
+
+.contact-ct {
+	background-color:  yellowgreen;
+	text-align:  center;
+	color:  white;
+}
+
+footer {
+	text-align: center;
+}
