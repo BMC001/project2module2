@@ -3,6 +3,8 @@
 
 * {margin: 0; padding: 0}
 
+/** {outline: 1px solid red;}*/
+
 .de-ct {
 	background-image:  url("./images/dramatically-engage1.jpg");
 /*	height: 750px;
@@ -48,21 +50,34 @@
 	color:  white;
 }
 
-#bar4 {
+#bar4-id-ct {
 	background-color:  black;
+	padding-top: 15%;
+	padding-bottom: 15%;
 }
 
 .b6-sanity-ct {
 	text-align:  center;
+	padding-top: 3%;
+	padding-bottom: 5%;
 }
 
-.contact-ct {
+.bar7-contact-ct {
 	background-color:  yellowgreen;
 	text-align:  center;
 	color:  white;
+	padding-top: 8%;
+	padding-bottom: 8%;
 }
 
 footer {
 	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
+#bar3-id-ct {
+	margin-top: 15%;
+	Margin-bottom: 15%;
+
+}
