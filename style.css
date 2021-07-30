@@ -3,8 +3,8 @@
 
 * {margin: 0; padding: 0}
 
-/** {outline: 1px solid red;}*/
-
+/** {outline: 1px solid red;}
+*/
 .de-ct {
 	background-image:  url("./images/dramatically-engage1.jpg");
 /*	height: 750px;
@@ -56,6 +56,12 @@
 	padding-bottom: 15%;
 }
 
+#bar4-id-ct img {
+	height: 126.5%;
+	width: 75%;
+	border-radius: 50%;
+}
+
 .b6-sanity-ct {
 	text-align:  center;
 	padding-top: 3%;
@@ -76,8 +82,44 @@ footer {
 	margin-bottom: 2%;
 }
 
+.bar5-id-ct {
+	width: 100%;
+	/*margin-left: -13px;*/
+}
+
 #bar3-id-ct {
-	margin-top: 15%;
-	Margin-bottom: 15%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 
 }
+
+.mabic-ct img {
+	float: right;
+	height: 80%;
+	width: 80%;
+	border-radius: 50%;
+}
+
+#unleash {
+	/*outline: 1px solid red;*/
+	height: 90%;
+	width: 106%;
+
+}
+
+#synergize {
+	height: 90%;
+	width: 106%;
+}
+
+
+#procrastinate {
+	height: 90%;
+	width: 106%;
+
+}
+
+/*#row-piss { margin-left: -13px; }*/
+
+
+
