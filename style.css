@@ -3,8 +3,8 @@
 
 * {margin: 0; padding: 0}
 
-/** {outline: 1px solid red;}
-*/
+* {outline: 1px solid red;}
+
 .de-ct {
 	background-image:  url("./images/dramatically-engage1.jpg");
 /*	height: 750px;
@@ -50,6 +50,8 @@
 	color:  white;
 }
 
+
+
 #bar4-id-ct {
 	background-color:  black;
 	padding-top: 15%;
@@ -58,10 +60,11 @@
 
 #bar4-id-ct img {
 	height: 126.5%;
-	width: 75%;
+	width: 100%;
 	border-radius: 50%;
 }
 
+/*----------------------------------------*/
 .b6-sanity-ct {
 	text-align:  center;
 	padding-top: 3%;
@@ -96,9 +99,11 @@ footer {
 .mabic-ct img {
 	float: right;
 	height: 80%;
-	width: 80%;
+	width: 100%;
 	border-radius: 50%;
 }
+
+
 
 #unleash {
 	/*outline: 1px solid red;*/
