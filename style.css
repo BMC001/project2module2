@@ -3,29 +3,15 @@
 
 * {margin: 0; padding: 0}
 
-* {outline: 1px solid red;}
+/** {outline: 1px solid red;}*/
 
-.de-ct {
-	background-image:  url("./images/dramatically-engage1.jpg");
-/*	height: 750px;
-	width:  1500px;*/
-	height: 100%;
-	width:  100%;
-	/*margin-bottom: -470px;*/
-	color:  white;
-	text-align: center;
-	padding-bottom: 27%;
-	padding-top: 5%;
-	/*background-size: contain;*/
 
-	
-}
+/*----------NAV BAR BOOTSTRAP-----*/
 
 .navbar-expand-lg nav {
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: white;
-
 }
 
 .inner-nav-bar {
@@ -33,9 +19,25 @@
 	justify-content: flex-end;
 }
 
-.de-ct h1 {
-	font-size: 75px;
+/*------bar 1 DRAMATIC ENGAGE --------*/
+.de-ct {
+	background-image:  url("./images/dramatically-engage1.jpg");
+	height: auto;  
+	width:  100%;
+	color:  white;
+	text-align: center;
+	padding-bottom: 27%;
+	padding-top: 5%;
+	background-size: cover;
+	font-size: 24px;
+}
 
+
+.bar1text h1 {
+
+	font-size: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .comp-ct {
@@ -46,31 +48,171 @@
 	padding-bottom: 8%;
 }
 
-.sq-ph-ct {
-	color:  white;
-}
-
-
-
-#bar4-id-ct {
-	background-color:  black;
-	padding-top: 15%;
-	padding-bottom: 15%;
-}
-
-#bar4-id-ct img {
-	height: 126.5%;
-	width: 100%;
-	border-radius: 50%;
+@media screen and (max-width: 414px) {
+	.bar1text h1 {font-size: 50px;}
+	.bar1text {padding-top: 30px; padding-bottom: 30px;}
+	div.sq-ph-ct {float: left;}
+	.phone-pic {float: right;}
+	.mabic-ct {float: left;}
 }
 
 /*----------------------------------------*/
+
+
+/*--------BAR 3 BEST IN CLASS AND MIRCROPHONE-------*/
+.BIC {
+	width: 75%;
+}
+
+.bar3-class-ct {
+
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+
+.mabic-ct img {
+	float: right;
+	height: 80%;
+	width: 85%;
+	border-radius: 50%;
+}
+
+/*--BAR 4 SUPERIOR QUALITY AND CELL PHONE PIC --------------------*/
+.sq-ph-ct {
+	color:  white;
+	width: 74%;
+	float: right;
+}
+
+#bar4-id-ct {
+	background-color:  dimgrey;
+	padding-top: 12%;
+	padding-bottom: 12%;
+}
+
+.phone-pic img {
+	float: left;
+	height: 120%;
+	width: 80%;
+	border-radius: 50%;
+}
+
+/* ---------------END OF BAR 4 --------------*/
+
+
+/*  bar 5 image hyperlinks---------------------------------*/
+.bar5-class-ct {
+	
+	background-size: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.bar5-class-ct div {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.inner-bar5 {
+
+}
+
+.unleash {
+	background-image: url("./images/1unleash.jpg");
+	height: 202.217px;
+	width: 100%;
+	margin-bottom: 3%;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+.unleash h3 {
+	text-align: center;
+	text-shadow: 2px 2px 7px black;
+	padding-top: 19%;
+	padding-bottom: 18.5%;
+	padding-left: 0%;
+	color: lightyellow;
+}
+
+
+.unleash :hover {
+	background-color: black;
+	opacity: .5;
+}
+
+
+.unleash a {
+	text-decoration: none;
+}
+
+
+.synergize {
+	background-image: url("./images/1synergize.jpg");
+	height: 202.217px;
+	width: 100%;
+	margin-bottom: 3%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.synergize h3 {
+	text-align: center;
+	text-shadow: 2px 2px 7px black;
+	padding-top: 19%;
+	padding-bottom: 18.5%;
+	color: white;
+}
+
+div.synergize :hover {
+	background-color: black;
+	opacity: .5;
+}
+
+.synergize a {
+	text-decoration: none;
+}
+
+.procrastinate {
+	background-image: url("./images/1procrastinate.jpg");
+	height: 202.217px;
+	width: 100%;
+	margin-bottom: 3%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.procrastinate h3 {
+	text-align: center;
+	text-shadow: 2px 2px 7px black;
+	padding-top: 19%;
+	padding-bottom: 18.5%;
+	color: white;
+}
+
+div.procrastinate :hover {
+	background-color: black;
+	opacity: .5;
+}
+
+.procrastinate a {
+	text-decoration: none;
+}
+
+
+/*----------BAR 6 SANITY CHECK----------------*/
 .b6-sanity-ct {
 	text-align:  center;
 	padding-top: 3%;
 	padding-bottom: 5%;
 }
 
+
+/*----------BAR 7 contact us----------------*/
 .bar7-contact-ct {
 	background-color:  yellowgreen;
 	text-align:  center;
@@ -79,52 +221,14 @@
 	padding-bottom: 8%;
 }
 
+/*#bar7-id-ct {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+*/
+/*----------footer copyright info-----------*/
 footer {
 	text-align: center;
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
-
-.bar5-id-ct {
-	width: 100%;
-	/*margin-left: -13px;*/
-}
-
-#bar3-id-ct {
-	margin-top: 10%;
-	margin-bottom: 10%;
-
-}
-
-.mabic-ct img {
-	float: right;
-	height: 80%;
-	width: 100%;
-	border-radius: 50%;
-}
-
-
-
-#unleash {
-	/*outline: 1px solid red;*/
-	height: 90%;
-	width: 106%;
-
-}
-
-#synergize {
-	height: 90%;
-	width: 106%;
-}
-
-
-#procrastinate {
-	height: 90%;
-	width: 106%;
-
-}
-
-/*#row-piss { margin-left: -13px; }*/
-
-
-
