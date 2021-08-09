@@ -1,31 +1,13 @@
 /*style.css*/
 /* m2 project 2 */
-/*updated 8/5/21*/
+/*updated 8/9/21*/
 
 * {margin: 0; padding: 0}
 
-/** {outline: 1px solid red;}*/
-
-/*#navbarNavDropdown {
-	padding-left: 65%;
-}*/
 
 
-
-/*----------NAV BAR BOOTSTRAP-----*/
-
-.navbar-expand-lg nav {
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: white;
-}
-
-.inner-nav-bar {
-	display: flex;
-	justify-content: flex-end;
-}
-
-
+.navbar img {color: white !important;}
+.navbar-brand svg {padding-right: 5px;}
 
 
 /*------bar 1 DRAMATIC ENGAGE --------*/
@@ -63,7 +45,12 @@
 	div.sq-ph-ct {float: left;}
 	.phone-pic {float: right;}
 	.mabic-ct {float: left;}
+	.navbar { background-color: #f8f9fa !important;}
+	.navbar a {color: green !important;} /*text color---*/
+
 }
+	
+	
 
 /*----------------------------------------*/
 
